@@ -2,7 +2,7 @@ import { RECEIVED_USERS } from './actions';
 
 const reducer = (state = [], action) => {
   switch (action.type) {
-    case RECEIVED_USERS: return action.users;
+    case RECEIVED_USERS: return [...state, ...action.users];
     default: return state;
   }
 };

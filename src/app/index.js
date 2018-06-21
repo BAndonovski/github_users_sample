@@ -1,5 +1,6 @@
 import React from 'react';
 import { Provider } from 'react-redux';
+// eslint-disable-next-line
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { ConnectedRouter } from 'connected-react-router';
 import { createBrowserHistory } from 'history';
