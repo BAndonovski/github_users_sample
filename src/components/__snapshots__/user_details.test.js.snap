@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserDetails renders properly matches snapshot 1`] = `
+<div
+  className="panel panel-primary"
+>
+  <div
+    className="panel-heading"
+  >
+    <h3
+      className="panel-title"
+    >
+      octocat
+    </h3>
+  </div>
+  <div
+    className="panel-body"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-2"
+      >
+        <img
+          alt="avatar"
+          className="user_card_avatar"
+          src="https://github.com/images/error/octocat_happy.gif"
+        />
+      </div>
+      <div
+        className="col-md-4"
+      >
+        <div>
+          ID: 
+          1
+        </div>
+        <div>
+          Login: 
+          octocat
+        </div>
+        <div>
+          URL: 
+          https://github.com/octocat
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
